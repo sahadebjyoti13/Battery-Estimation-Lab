@@ -1,0 +1,6 @@
+{
+  "schema_version": "0.1",
+  "defaults": {"estimator": "HDCQKF", "radial_order": 2, "states": 15, "discharge_scale_C": 1, "sample_time_s": 1},
+  "supported_scales_C": [1, 2, 3, 4],
+  "outputs": ["input_current", "terminal_voltage", "estimated_voltage", "soc_reference", "soc_estimate", "soc_error", "rmse", "mae", "maxae", "runtime"]
+}
